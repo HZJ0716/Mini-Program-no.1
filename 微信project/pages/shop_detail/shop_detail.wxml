@@ -1,0 +1,13 @@
+<!--pages/shop_detail/shop_detail.wxml-->
+<view class='bg-show' wx:if='{{isShow}}' catchtap='disshow'>
+  <banner-cmp imgList="{{detailList[0]}}" class='banner-show' catchtap='disshow'/>
+</view>
+<view class='container'>
+  <banner-cmp imgList="{{detailList[0]}}" class='banner' bind:show='show'/>
+  <text class='title'>商品名：{{title}}</text>
+  <text class='idName'>作品系列：{{id}}</text>
+  <text class='line'></text>
+  <info-cmp infoArr="{{detailList[2]}}"/>
+  <text class='line'></text>
+  <desimg-cmp imgArr="{{detailList[1]}}"/>
+</view> 

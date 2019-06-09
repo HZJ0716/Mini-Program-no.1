@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "list-cmp": "/component/shoplist/shoplist/index",
+    "search-cmp": "/component/shoplist/search/index"
+  },
+  "navigationBarTitleText": "商品列表"
+}

@@ -1,0 +1,12 @@
+<!--component/my/list/index.wxml-->
+<view class='container'>
+  <view class='list' wx:for="{{listArr}}" wx:key="{{index}}" wx:if="{{item.isLike}}" data-index="{{item.itemsId}}" catchtap='toDetail'>
+    <view class='shoucang'>
+      <text class='name'>{{item.name}}</text>
+      <like-cmp class='like' data-index="{{item.itemsId}}" bind:like="onLike" count="{{item.like}}" isLike="{{item.isLike}}"/>
+    </view>
+    <image class='Img' src='{{item.itemsImg}}'></image>
+    <text class='content'>{{item.brief}}</text>
+  </view>
+</view>
+

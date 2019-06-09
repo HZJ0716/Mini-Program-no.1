@@ -1,0 +1,15 @@
+<!--pages/shoplist/shoplist.wxml-->
+<view>
+  <view class='container' wx:if="{{!isSearch}}">
+    <view class='search'>
+      <view class='sea-top' catchtap='onSearch'>
+        <view class='sea-bg'>
+        <image src='/images/search.png'></image>
+        <text>搜索商品</text>
+        </view>
+      </view>
+    </view>
+    <list-cmp listArr='{{listArr}}' bind:toDetail="toDetail"/>
+  </view>
+  <search-cmp wx:if="{{isSearch}}" bind:cancel="Cancel" bind:jpDetail='jpDetail'/>
+</view>

@@ -1,0 +1,79 @@
+/* component/my/head/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2rpx solid #ccc;
+  height: 556rpx; 
+  z-index: -1;
+}
+
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 556rpx;
+}
+
+.userInfo{
+  position: relative;
+  top: 250rpx;
+  left: 308rpx;
+  width: 125rpx;
+  text-align: center;
+}
+
+.userInfo image{
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 50%;
+}
+
+.userInfo text{
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.floor{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 450rpx;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about image{
+  position: relative;
+  top: 0;
+  left: 20rpx;
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.about text{
+  margin-top: 15rpx; 
+  font-weight: bold;
+}
+
+.shoucang{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.shoucang .num{
+  font-size: 36rpx;
+}
+
+.shoucang .my{
+  font-weight: bold;
+}
+

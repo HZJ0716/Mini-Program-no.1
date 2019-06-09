@@ -1,0 +1,5 @@
+<!--component/index/title/index.wxml-->
+<view class='container'>
+<text class='title'>商品名:</text>
+  <text class='title_info'>{{title}}</text>
+</view>

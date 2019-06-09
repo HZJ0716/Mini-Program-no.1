@@ -1,0 +1,20 @@
+/* component/index/title/index.wxss */
+.container{
+  display: flex;
+  font-size: 20rpx;
+  font-family: '微软雅黑';
+  font-weight: bold;
+  height: 70rpx;
+}
+.title{
+  margin: 0 20rpx;
+}
+.title_info{
+  width: 300rpx; 
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

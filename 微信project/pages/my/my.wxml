@@ -1,0 +1,5 @@
+<!--pages/my/my.wxml-->
+<view class='container'>
+  <head-cmp/>
+  <list-cmp  listArr="{{listArr}}" bind:toDetail="toDetail"/>
+</view>

@@ -1,0 +1,7 @@
+<!--component/detail/info/index.wxml-->
+<view class='container'>
+  <text class='info-name'>商品参数</text>
+  <view wx:for="{{infoArr}}" wx:key="{{index}}">
+    <text class='info'>{{item}}</text>
+  </view>
+</view>

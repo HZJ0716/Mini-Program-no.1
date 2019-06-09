@@ -1,0 +1,21 @@
+<!--component/shoplist/search/index.wxml-->
+<view class='cantainer'>
+  <view class='header'>
+    <view class='sea-container'>
+      <image class='icon' src='../../../images/search.png'></image>
+      <input placeholder-class='in-bar' placeholder='商品名' class='bar'value='{{p}}' auto-focus='true' bindinput='doSearch' confirm-type='search'/>
+      <view class='del' catchtap='doDel'>
+        <image src='../../images-cmp/cancel.png'></image>
+      </view>
+    </view>
+    <view class='cancel' catchtap='doCancel'>取消</view>
+  </view>
+  <view wx:if="{{isfinish && !isempty}}" class='list' wx:for="{{list}}" wx:key="{{index}}" data-index='{{item.itemsId}}' catchtap='toDeatail'>
+    <image src='{{item.itemsImg}}'></image>
+    <view class='text'>
+      <text class='title'>{{item.name}}</text>
+      <text class='price'>价格：{{item.price}} RMB</text>
+    </view>
+  </view>
+  <view class='empty' wx:if='{{isempty}}'>未找到与信息相匹配的商品</view>
+</view>

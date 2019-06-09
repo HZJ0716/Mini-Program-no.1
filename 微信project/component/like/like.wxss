@@ -1,0 +1,19 @@
+/* component/like/like.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+  width: 60rpx;
+}
+.container image{
+  width: 16rpx;
+  height: 14rpx;
+}
+.container text{
+  font-size: 17rpx;
+  color: #bbb;
+  line-height: 14rpx;
+  position: relative;
+  bottom: 10rpx;
+  left: 5rpx;
+}

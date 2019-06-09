@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/shoplist/shoplist",
+    "pages/shop_detail/shop_detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "模型",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "./images/index.png",
+        "selectedIconPath": "./images/onindex.png"
+      },
+      {
+        "pagePath": "pages/shoplist/shoplist",
+        "text": "商品列表",
+        "iconPath": "./images/book.png",
+        "selectedIconPath": "./images/onbook.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/onmy.png"
+      }
+    ]
+  }
+}

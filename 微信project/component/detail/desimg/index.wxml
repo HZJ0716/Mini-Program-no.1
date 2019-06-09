@@ -1,0 +1,7 @@
+<!--component/detail/desimg/index.wxml-->
+<view class='container'>
+  <text class='shopdes'>商品实例图</text>
+  <view wx:for="{{imgArr}}" wx:key="{{index}}">
+    <image class='shopImg' src="{{item}}"></image>
+  </view>
+</view>

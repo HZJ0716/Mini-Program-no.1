@@ -1,0 +1,53 @@
+/* component/shoplist/shoplist/index.wxss */
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listImg{
+  position: relative;
+  width: 240rpx;
+  height: 360rpx;
+  margin: 30rpx  45rpx;
+  box-shadow: 10rpx 10rpx 10rpx rgba(190, 190, 190, 0.3);
+  border-radius: 10rpx;
+}
+
+.Img{
+  width: 100%;
+  height: 360rpx;
+}
+
+.info{
+  position: absolute;
+  top: 240rpx;
+  left: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 -8rpx 10rpx rgba(190, 190, 190, 0.3);
+}
+
+.info text{
+  width: 225rpx;
+  font-size: 16rpx;
+  font-weight: bold;
+  margin: 0 10rpx;
+  padding-top: 10rpx; 
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.price{
+  color: rgb(197, 197, 197);
+  font-size: 14rpx;
+  position: relative;
+  left: 105rpx;
+  top: 23rpx;
+}

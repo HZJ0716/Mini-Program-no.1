@@ -1,0 +1,25 @@
+/* component/index/navlist/navlist.wxss */
+.container{
+  display: inline-flex;
+  flex-direction: row;
+  width: 600rpx;
+  height: 60rpx;
+  background-color: #f7f7f7f7;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.title{
+  font-size: 16rpx;
+  width: 300rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.container image{
+  height: 60rpx;
+  width: 80rpx;
+}

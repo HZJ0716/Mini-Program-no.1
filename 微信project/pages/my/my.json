@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "head-cmp":"/component/my/head/index",
+    "list-cmp":"/component/my/list/index"
+  },
+  "navigationBarTitleText": "信息管理"
+}

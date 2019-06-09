@@ -1,0 +1,13 @@
+<!--component/detail/banner/index.wxml-->
+<view class='banner'>
+  <swiper
+    autoplay='true'
+    interval='3000'
+    duration='1000'
+    circular='true'
+  >
+    <swiper-item wx:for="{{imgList}}" wx:key="{{index}}">
+      <image src='{{item}}' data-index='{{index}}' catchtap='show'></image>
+    </swiper-item>
+  </swiper>
+</view>

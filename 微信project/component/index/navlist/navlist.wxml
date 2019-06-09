@@ -1,0 +1,6 @@
+<!--component/index/navlist/navlist.wxml-->
+<view class='container'>
+  <image catchtap="onPrev" src="{{page==10000993?'../../images-cmp/Prev.png':'../../images-cmp/onPrev.png'}}"></image>
+  <text class='title'>{{title}}</text>
+  <image catchtap="onNext" src="{{page==10008296?'../../images-cmp/Next.png':'../../images-cmp/onNext.png'}}"></image>
+</view>

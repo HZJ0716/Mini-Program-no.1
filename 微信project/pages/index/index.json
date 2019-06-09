@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "like-cmp":"/component/like/like",
+    "first-cmp":"/component/index/first/first",
+    "title-cmp":"/component/index/title/index",
+    "navList-cmp":"/component/index/navlist/navlist"
+  },
+  "navigationBarTitleText": "商城",
+  "navigationBarBackgroundColor": "#fff"
+}

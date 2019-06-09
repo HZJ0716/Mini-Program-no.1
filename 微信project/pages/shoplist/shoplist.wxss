@@ -1,0 +1,34 @@
+/* pages/shoplist/shoplist.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 249, 249);
+}
+.search{
+  width: 100%;
+  height: 128rpx;
+  background-color: #fff;
+}
+.sea-bg{
+  width: 650rpx;
+  height: 66rpx;
+  margin-top: 34rpx;
+  margin-left: 55rpx;
+  border-radius: 40rpx;
+  position: relative;
+  background-color: rgb(249, 249, 249); 
+}
+.sea-bg text{
+  position: absolute;
+  top: 20rpx;
+  left: 63rpx;
+  color: #ccc;
+  font-size: 18rpx;
+}
+.sea-bg image{
+  position: absolute;
+  top: 20rpx;
+  left: 29rpx;
+  width: 25rpx;
+  height: 25rpx;
+}

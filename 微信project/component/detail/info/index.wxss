@@ -1,0 +1,18 @@
+/* component/detail/info/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-name{
+  font-size: 20rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+
+.info{
+  font-size: 17rpx;
+  font-weight: bold;
+  margin: 20rpx 20rpx;
+}

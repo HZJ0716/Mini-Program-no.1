@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "banner-cmp": "/component/detail/banner/index",
+    "info-cmp": "/component/detail/info/index",
+    "desimg-cmp": "/component/detail/desimg/index"
+  },
+  "navigationBarTitleText": "商品详情"
+}

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='header'>
+      <title-cmp title='{{listArr.name}}'/>
+      <like-cmp class="like" bind:like="onLike" count='{{listArr.like}}' isLike='{{listArr.isLike}}'/>
+  </view>
+  <first-cmp class='first' content='{{listArr.brief}}' img='{{listArr.itemsImg}}' bind:toDetail='toDetail'/>
+  <navList-cmp bind:Prev='onPrev' bind:Next='onNext' class="navs" title='{{listArr.name}}' page='{{listArr.itemsId}}'/>
+</view>

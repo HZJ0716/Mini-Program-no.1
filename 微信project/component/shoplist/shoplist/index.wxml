@@ -1,0 +1,10 @@
+<!--component/shoplist/shoplist/index.wxml-->
+<view class='container'>
+  <view class="listImg" wx:for="{{listArr}}" wx:key="{{index}}" data-items='{{item.itemsId}}'  bindtap='toDetail'>
+    <image class='Img' src='{{item.itemsImg}}'></image>
+    <view class='info'>
+      <text>{{item.name}}</text>
+      <text class='price'>价格: {{item.price}}RMB</text>
+    </view>
+  </view>
+</view>
