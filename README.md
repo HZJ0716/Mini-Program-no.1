@@ -5,9 +5,9 @@ node + 小程序 的一个demo
 
 了解一下小程序的函数周期与结构属性
 
-以下是界面信息
+以下是相关界面
 
-![image](https://github.com/HZJ0716/Mini-Program-no.1/tree/master/img/detail.png)
+![image](https://github.com/HZJ0716/Mini-Program-no.1/blob/master/img/detail.png)
 
 ![image](https://github.com/HZJ0716/Mini-Program-no.1/tree/master/img/index.jpg)
 
