@@ -9,10 +9,10 @@ node + 小程序 的一个demo
 
 ![image](https://github.com/HZJ0716/Mini-Program-no.1/blob/master/img/detail.png)
 
-![image](https://github.com/HZJ0716/Mini-Program-no.1/tree/master/img/index.jpg)
+![image](https://github.com/HZJ0716/Mini-Program-no.1/blob/master/img/index.jpg)
 
-![image](https://github.com/HZJ0716/Mini-Program-no.1/tree/master/img/list.jpg)
+![image](https://github.com/HZJ0716/Mini-Program-no.1/blob/master/img/list.jpg)
 
-![image](https://github.com/HZJ0716/Mini-Program-no.1/tree/master/img/my.jpg)
+![image](https://github.com/HZJ0716/Mini-Program-no.1/blob/master/img/my.jpg)
 
-![image](https://github.com/HZJ0716/Mini-Program-no.1/tree/master/img/search.jpg)
+![image](https://github.com/HZJ0716/Mini-Program-no.1/blob/master/img/search.jpg)
